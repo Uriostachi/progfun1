@@ -1,0 +1,12 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\William\Documents\coursera\progfun1\Week1\RecursionAssignment\recfun\src\main\scala\recfun\RecFun.scala:56:18: overloaded method value % with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Double)Double <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Float)Float <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Long)Long <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Int)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Char)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Short)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Byte)Int[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (List[Int])[0m
+[0m[[0m[31merror[0m] [0m[0m        if(money % coins != 0) inner(money, coins.filter(_ < coins.max), combination)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

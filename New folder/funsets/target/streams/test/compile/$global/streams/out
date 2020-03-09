@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\William\Documents\coursera\progfun1\New folder\funsets\src\test\scala\funsets\FunSetSuite.scala:146:15: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m      val s = test(s1)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

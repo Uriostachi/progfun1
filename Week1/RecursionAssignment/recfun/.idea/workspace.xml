@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="093f118b-9fe4-4d4e-973c-fbc984fa63d2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1WxFefa8NklyvZiWp8r7bY8xsF5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="RecFun" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="recfun.RecFun" />
+      <module name="recfun_7990" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recfun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RecFun" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="progfun1-recfun" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="recfun [file:/C:/Users/William/Documents/coursera/progfun1/Week1/RecursionAssignment/recfun/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="progfun1-recfun-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="9429375876000" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="1861596165" />
+        <entry key="$PROJECT_DIR$/project/MOOCSettings.scala" value="598648594" />
+        <entry key="$PROJECT_DIR$/project/StudentTasks.scala" value="2255003577" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
+        <entry key="$PROJECT_DIR$/project/buildSettings.sbt" value="2649409897" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="2662701361" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../PracticeAssignment/example" value="PREVIEW" />
+        <entry key="$USER_HOME$/IdeaProjects/HelloWorld" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="093f118b-9fe4-4d4e-973c-fbc984fa63d2" name="Default Changelist" comment="" />
+      <created>1580083440183</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580083440183</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="270" y="-803" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1580083661394">
+      <screen x="-305" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="270" y="-803" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1920.1040/-305.-1440.2560.1440@-305.-1440.2560.1440" timestamp="1580083661394" />
+    <state x="833" y="301" key="FileChooserDialogImpl" timestamp="1580659328293">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="833" y="301" key="FileChooserDialogImpl/0.0.1920.1040/-305.-1440.2560.1440@0.0.1920.1040" timestamp="1580659328293" />
+    <state width="1561" height="410" key="GridCell.Tab.0.bottom" timestamp="1580085410519">
+      <screen x="-305" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="1561" height="410" key="GridCell.Tab.0.bottom/0.0.1920.1040/-305.-1440.2560.1440@-305.-1440.2560.1440" timestamp="1580085410519" />
+    <state width="1561" height="410" key="GridCell.Tab.0.center" timestamp="1580085410519">
+      <screen x="-305" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="1561" height="410" key="GridCell.Tab.0.center/0.0.1920.1040/-305.-1440.2560.1440@-305.-1440.2560.1440" timestamp="1580085410519" />
+    <state width="1561" height="410" key="GridCell.Tab.0.left" timestamp="1580085410517">
+      <screen x="-305" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="1561" height="410" key="GridCell.Tab.0.left/0.0.1920.1040/-305.-1440.2560.1440@-305.-1440.2560.1440" timestamp="1580085410517" />
+    <state width="1561" height="410" key="GridCell.Tab.0.right" timestamp="1580085410519">
+      <screen x="-305" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="1561" height="410" key="GridCell.Tab.0.right/0.0.1920.1040/-305.-1440.2560.1440@-305.-1440.2560.1440" timestamp="1580085410519" />
+    <state x="380" y="394" key="com.intellij.ide.util.TipDialog" timestamp="1580659288369">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="202" y="-894" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-305.-1440.2560.1440@-305.-1440.2560.1440" timestamp="1580398371085" />
+    <state x="380" y="394" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-305.-1440.2560.1440@0.0.1920.1040" timestamp="1580659288369" />
+    <state x="436" y="284" key="new project wizard" timestamp="1580659345292">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="436" y="284" key="new project wizard/0.0.1920.1040/-305.-1440.2560.1440@0.0.1920.1040" timestamp="1580659345292" />
+  </component>
+</project>

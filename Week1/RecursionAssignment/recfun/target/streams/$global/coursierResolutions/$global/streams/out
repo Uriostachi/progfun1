@@ -1,0 +1,4 @@
+[error] coursier.error.ResolutionError$Several: Error downloading org.scala-lang:scala-library:2.13.0
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\William\.ivy2\local\org.scala-lang\scala-library\2.13.0\ivys\ivy.xml

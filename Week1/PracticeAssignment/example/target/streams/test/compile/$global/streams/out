@@ -1,0 +1,33 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\William\Documents\coursera\progfun1\Week1\PracticeAssignment\example\src\test\scala\example\ListsSuite.scala:106:12: overloaded method value assertEquals with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: Array[Object],x$2: Array[Object])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: String,x$2: Array[Object],x$3: Array[Object])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: Float,x$2: Float,x$3: Float)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: Double,x$2: Double,x$3: Double)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: String,x$2: Double,x$3: Double)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: Double,x$2: Double)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: String,x$2: Long,x$3: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: Long,x$2: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: String,x$2: Float,x$3: Float,x$4: Float)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: String,x$2: Double,x$3: Double,x$4: Double)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: Object,x$2: Object)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: String,x$2: Object,x$3: Object)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (Boolean)[0m
+[0m[[0m[31merror[0m] [0m[0m    Assert.assertEquals(max(List(3, 7, 2)) == 7)[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\William\Documents\coursera\progfun1\Week1\PracticeAssignment\example\src\test\scala\example\ListsSuite.scala:110:12: overloaded method value assertEquals with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: Array[Object],x$2: Array[Object])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: String,x$2: Array[Object],x$3: Array[Object])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: Float,x$2: Float,x$3: Float)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: Double,x$2: Double,x$3: Double)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: String,x$2: Double,x$3: Double)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: Double,x$2: Double)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: String,x$2: Long,x$3: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: Long,x$2: Long)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: String,x$2: Float,x$3: Float,x$4: Float)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: String,x$2: Double,x$3: Double,x$4: Double)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: Object,x$2: Object)Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: String,x$2: Object,x$3: Object)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (Boolean)[0m
+[0m[[0m[31merror[0m] [0m[0m    Assert.assertEquals(max(List(-3, -7,  -2)) == -2);[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

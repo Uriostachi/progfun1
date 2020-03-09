@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3706ff4-20a1-4e9f-ad07-03e1eb72386d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Worksheet" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1X8Qx8sA3m05uyjxg5NIAADs83Z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="Week2" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="week2 [file:/C:/Users/William/Documents/coursera/progfun1/Week2/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="Week2-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3160850970608" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="3018453329" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="3666975207" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../Week1/PracticeAssignment/example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../Week1/RecursionAssignment/recfun" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+        <entry key="$USER_HOME$/IdeaProjects/HelloWorld" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3706ff4-20a1-4e9f-ad07-03e1eb72386d" name="Default Changelist" comment="" />
+      <created>1580425485150</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580425485150</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="18" y="-1145" key="SettingsEditor" timestamp="1580425979032">
+      <screen x="-305" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="18" y="-1145" key="SettingsEditor/0.0.1920.1040/-305.-1440.2560.1440@-305.-1440.2560.1440" timestamp="1580425979032" />
+    <state x="235" y="-896" key="com.intellij.ide.util.TipDialog" timestamp="1580569381158">
+      <screen x="-305" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="235" y="-896" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-305.-1440.2560.1440@-305.-1440.2560.1440" timestamp="1580569381158" />
+  </component>
+</project>
