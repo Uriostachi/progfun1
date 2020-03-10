@@ -1,5 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\William\Documents\coursera\progfun1\Week4\patmat\src\main\scala\patmat\Huffman.scala:155:10: not enough arguments for method until: (done: List[patmat.CodeTree] => Boolean, merge: List[patmat.CodeTree] => List[patmat.CodeTree])(trees: List[patmat.CodeTree])List[patmat.CodeTree].[0m
-[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter merge.[0m
-[0m[[0m[31merror[0m] [0m[0m    until(makeOrderedLeafList(times(chars)))[0m
-[0m[[0m[31merror[0m] [0m[0m         ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/wmachi/Documents/dev/scala/Coursera/progFun1/Week4/patmat/src/main/scala/patmat/Huffman.scala:167:63: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: (Fork(_, _, _, _), _), (_, 0), (_, 1), (_, ??), (_, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def findBranch(givenTree: CodeTree, bit: Bit): CodeTree = (givenTree, bit) match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

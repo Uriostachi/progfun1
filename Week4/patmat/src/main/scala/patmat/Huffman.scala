@@ -163,7 +163,25 @@ trait Huffman extends HuffmanInterface {
    * This function decodes the bit sequence `bits` using the code tree `tree` and returns
    * the resulting list of characters.
    */
-  def decode(tree: CodeTree, bits: List[Bit]): List[Char] = ???
+  def decode(tree: CodeTree, bits: List[Bit]): List[Char] = {
+    def findBranch(givenTree: CodeTree, bit: Bit): CodeTree = (givenTree, bit) match {
+      case (_: Leaf, _) => throw new IllegalArgumentException("leaf.findBranch")
+      case(Fork(left, _, _, _), 0 ) => left
+      case(Fork(_, right, _, _), 1) => right
+    }
+
+    def mapBits(givenTree: CodeTree, restBits: List[Bit]): (Char, List[Bit]) = givenTree match {
+      case Leaf(char, _) => (char, restBits)
+      case _: Fork => mapBits(findBranch(givenTree, restBits.head), restBits.tail)
+    }
+
+    def decodeAcc(givenTree: CodeTree, mappedBits: (Char, List[Bit]), acc: List[Char]): List[Char] = mappedBits match {
+      case (ch, Nil) => (ch :: acc).reverse
+      case (ch, bits) => decodeAcc(tree, mapBits(tree, bits), ch :: acc)
+    }
+
+    decodeAcc(tree, mapBits(tree, bits), Nil)
+  }
 
   /**
    * A Huffman coding tree for the French language.
@@ -181,7 +199,7 @@ trait Huffman extends HuffmanInterface {
   /**
    * Write a function that returns the decoded secret
    */
-  def decodedSecret: List[Char] = ???
+  def decodedSecret: List[Char] = decode(frenchCode, secret)
 
 
   // Part 4a: Encoding using Huffman tree
@@ -190,7 +208,25 @@ trait Huffman extends HuffmanInterface {
    * This function encodes `text` using the code tree `tree`
    * into a sequence of bits.
    */
-  def encode(tree: CodeTree)(text: List[Char]): List[Bit] = ???
+  def encode(tree: CodeTree)(text: List[Char]): List[Bit]  = {
+    def encodeAcc(givenTree: CodeTree, givenText: List[Char], acc: List[Bit]): List[Bit] = {
+      if (givenText.isEmpty) acc.reverse else
+        encodeAcc(givenTree, givenText.tail, encodeMapBits(givenTree, givenText.head).reverse ::: acc)
+    }
+
+    encodeAcc(tree, text, Nil)
+  }
+
+  def encodeMapBits(givenTree: CodeTree, givenChar: Char): List[Bit] = {
+    def encodeMapBitsAcc(tree: CodeTree, char: Char, acc: List[Bit]): List[Bit] = tree match {
+      case _: Leaf => acc.reverse
+      case Fork(left, right, _, _) =>
+        if (chars(left).contains(char)) encodeMapBitsAcc(left, char, 0 :: acc)
+        else encodeMapBitsAcc(right, char, 1 :: acc)
+    }
+
+    encodeMapBitsAcc(givenTree, givenChar, Nil)
+  }
 
   // Part 4b: Encoding using code table
 
@@ -200,7 +236,14 @@ trait Huffman extends HuffmanInterface {
    * This function returns the bit sequence that represents the character `char` in
    * the code table `table`.
    */
-  def codeBits(table: CodeTable)(char: Char): List[Bit] = ???
+  def codeBits(table: CodeTable)(char: Char): List[Bit] = {
+    def iterate(givenTable: CodeTable, givenChar: Char): List[Bit] = {
+      if(givenTable.head._1 == char) givenTable.head._2
+      else iterate(givenTable.tail, givenChar)
+    }
+
+    iterate(table, char)
+  }
 
   /**
    * Given a code tree, create a code table which contains, for every character in the

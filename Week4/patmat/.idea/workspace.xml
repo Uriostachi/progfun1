@@ -1,7 +1,807 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1015091-ffb8-4a48-894a-ae82a63edeb6" name="Default Changelist" comment="" />
+    <list default="true" id="f4dff78c-8b35-43dc-ba15-2702fb9632ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patmat.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_novocode_junit_interface_0_11_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_novocode_junit_interface_0_11_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__junit_junit_4_11_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__junit_junit_4_11_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_hamcrest_hamcrest_core_1_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_sbt_test_interface_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_sbt_test_interface_1_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/progfun1-patmat-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/progfun1-patmat-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/progfun1-patmat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/progfun1-patmat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scalafix.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.scalafix.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/assignment.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-cli_2.12.10/0.9.7/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-cli_2.12.10/0.9.7/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-cli_2.12.10/0.9.7/.scalafix-cli_2.12.10-0.9.7.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-cli_2.12.10/0.9.7/.scalafix-cli_2.12.10-0.9.7.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-cli_2.12.10/0.9.7/.scalafix-cli_2.12.10-0.9.7.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-cli_2.12.10/0.9.7/.scalafix-cli_2.12.10-0.9.7.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-cli_2.12.10/0.9.7/scalafix-cli_2.12.10-0.9.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-cli_2.12.10/0.9.7/scalafix-cli_2.12.10-0.9.7.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-cli_2.12.10/0.9.7/scalafix-cli_2.12.10-0.9.7.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-cli_2.12.10/0.9.7/scalafix-cli_2.12.10-0.9.7.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-core_2.12/0.9.7/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-core_2.12/0.9.7/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-core_2.12/0.9.7/.scalafix-core_2.12-0.9.7.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-core_2.12/0.9.7/.scalafix-core_2.12-0.9.7.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-core_2.12/0.9.7/.scalafix-core_2.12-0.9.7.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-core_2.12/0.9.7/.scalafix-core_2.12-0.9.7.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-core_2.12/0.9.7/scalafix-core_2.12-0.9.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-core_2.12/0.9.7/scalafix-core_2.12-0.9.7.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-core_2.12/0.9.7/scalafix-core_2.12-0.9.7.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-core_2.12/0.9.7/scalafix-core_2.12-0.9.7.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-interfaces/0.9.7/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-interfaces/0.9.7/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-interfaces/0.9.7/.scalafix-interfaces-0.9.7.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-interfaces/0.9.7/.scalafix-interfaces-0.9.7.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-interfaces/0.9.7/.scalafix-interfaces-0.9.7.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-interfaces/0.9.7/.scalafix-interfaces-0.9.7.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-interfaces/0.9.7/scalafix-interfaces-0.9.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-interfaces/0.9.7/scalafix-interfaces-0.9.7.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-interfaces/0.9.7/scalafix-interfaces-0.9.7.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-interfaces/0.9.7/scalafix-interfaces-0.9.7.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-reflect_2.12.10/0.9.7/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-reflect_2.12.10/0.9.7/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-reflect_2.12.10/0.9.7/.scalafix-reflect_2.12.10-0.9.7.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-reflect_2.12.10/0.9.7/.scalafix-reflect_2.12.10-0.9.7.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-reflect_2.12.10/0.9.7/.scalafix-reflect_2.12.10-0.9.7.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-reflect_2.12.10/0.9.7/.scalafix-reflect_2.12.10-0.9.7.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-reflect_2.12.10/0.9.7/scalafix-reflect_2.12.10-0.9.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-reflect_2.12.10/0.9.7/scalafix-reflect_2.12.10-0.9.7.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-reflect_2.12.10/0.9.7/scalafix-reflect_2.12.10-0.9.7.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-reflect_2.12.10/0.9.7/scalafix-reflect_2.12.10-0.9.7.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-rules_2.12/0.9.7/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-rules_2.12/0.9.7/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-rules_2.12/0.9.7/.scalafix-rules_2.12-0.9.7.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-rules_2.12/0.9.7/.scalafix-rules_2.12-0.9.7.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-rules_2.12/0.9.7/.scalafix-rules_2.12-0.9.7.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-rules_2.12/0.9.7/.scalafix-rules_2.12-0.9.7.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-rules_2.12/0.9.7/scalafix-rules_2.12-0.9.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-rules_2.12/0.9.7/scalafix-rules_2.12-0.9.7.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-rules_2.12/0.9.7/scalafix-rules_2.12-0.9.7.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-rules_2.12/0.9.7/scalafix-rules_2.12-0.9.7.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/.logback-classic-1.2.3.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/.logback-classic-1.2.3.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/.logback-classic-1.2.3.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/.logback-classic-1.2.3.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/.logback-core-1.2.3.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/.logback-core-1.2.3.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/.logback-core-1.2.3.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/.logback-core-1.2.3.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.2.3/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.2.3/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.2.3/.logback-parent-1.2.3.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.2.3/.logback-parent-1.2.3.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.2.3/logback-parent-1.2.3.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.2.3/logback-parent-1.2.3.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.9.4/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.9.4/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.9.4/.metaconfig-core_2.12-0.9.4.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.9.4/.metaconfig-core_2.12-0.9.4.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.9.4/.metaconfig-core_2.12-0.9.4.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.9.4/.metaconfig-core_2.12-0.9.4.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.9.4/metaconfig-core_2.12-0.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.9.4/metaconfig-core_2.12-0.9.4.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.9.4/metaconfig-core_2.12-0.9.4.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.9.4/metaconfig-core_2.12-0.9.4.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.9.4/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.9.4/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.9.4/.metaconfig-typesafe-config_2.12-0.9.4.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.9.4/.metaconfig-typesafe-config_2.12-0.9.4.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.9.4/.metaconfig-typesafe-config_2.12-0.9.4.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.9.4/.metaconfig-typesafe-config_2.12-0.9.4.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.9.4/metaconfig-typesafe-config_2.12-0.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.9.4/metaconfig-typesafe-config_2.12-0.9.4.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.9.4/metaconfig-typesafe-config_2.12-0.9.4.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.9.4/metaconfig-typesafe-config_2.12-0.9.4.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.7.1/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.7.1/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.7.1/.protobuf-bom-3.7.1.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.7.1/.protobuf-bom-3.7.1.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.7.1/protobuf-bom-3.7.1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.7.1/protobuf-bom-3.7.1.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.1/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.1/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.1/.protobuf-java-3.7.1.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.1/.protobuf-java-3.7.1.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.1/.protobuf-java-3.7.1.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.1/.protobuf-java-3.7.1.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.1/protobuf-java-3.7.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.1/protobuf-java-3.7.1.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.1/protobuf-java-3.7.1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.1/protobuf-java-3.7.1.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.7.1/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.7.1/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.7.1/.protobuf-parent-3.7.1.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.7.1/.protobuf-parent-3.7.1.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.7.1/protobuf-parent-3.7.1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.7.1/protobuf-parent-3.7.1.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/googlecode/java-diff-utils/diffutils/1.3.0/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/googlecode/java-diff-utils/diffutils/1.3.0/.diffutils-1.3.0.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/googlecode/java-diff-utils/diffutils/1.3.0/.diffutils-1.3.0.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/googlecode/java-diff-utils/diffutils/1.3.0/.diffutils-1.3.0.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/googlecode/java-diff-utils/diffutils/1.3.0/.diffutils-1.3.0.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/googlecode/java-diff-utils/diffutils/1.3.0/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.7.9/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.7.9/.JavaEWAH-0.7.9.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.7.9/.JavaEWAH-0.7.9.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.7.9/.JavaEWAH-0.7.9.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.7.9/.JavaEWAH-0.7.9.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.7.9/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.7.9/JavaEWAH-0.7.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.7.9/JavaEWAH-0.7.9.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.7.9/JavaEWAH-0.7.9.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.7.9/JavaEWAH-0.7.9.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/jcraft/jsch/0.1.53/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/jcraft/jsch/0.1.53/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/jcraft/jsch/0.1.53/.jsch-0.1.53.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/jcraft/jsch/0.1.53/.jsch-0.1.53.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/jcraft/jsch/0.1.53/.jsch-0.1.53.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/jcraft/jsch/0.1.53/.jsch-0.1.53.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/jcraft/jsch/0.1.53/jsch-0.1.53.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/jcraft/jsch/0.1.53/jsch-0.1.53.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/jcraft/jsch/0.1.53/jsch-0.1.53.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/jcraft/jsch/0.1.53/jsch-0.1.53.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.2.5/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.2.5/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.2.5/.fansi_2.12-0.2.5.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.2.5/.fansi_2.12-0.2.5.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.2.5/.fansi_2.12-0.2.5.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.2.5/.fansi_2.12-0.2.5.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.2.5/fansi_2.12-0.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.2.5/fansi_2.12-0.2.5.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.2.5/fansi_2.12-0.2.5.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.2.5/fansi_2.12-0.2.5.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/2.1.3/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/2.1.3/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/2.1.3/.fastparse_2.12-2.1.3.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/2.1.3/.fastparse_2.12-2.1.3.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/2.1.3/.fastparse_2.12-2.1.3.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/2.1.3/.fastparse_2.12-2.1.3.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/2.1.3/fastparse_2.12-2.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/2.1.3/fastparse_2.12-2.1.3.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/2.1.3/fastparse_2.12-2.1.3.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/2.1.3/fastparse_2.12-2.1.3.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.5.3/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.5.3/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.5.3/.pprint_2.12-0.5.3.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.5.3/.pprint_2.12-0.5.3.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.5.3/.pprint_2.12-0.5.3.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.5.3/.pprint_2.12-0.5.3.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.5.3/pprint_2.12-0.5.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.5.3/pprint_2.12-0.5.3.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.5.3/pprint_2.12-0.5.3.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.5.3/pprint_2.12-0.5.3.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.4/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.4/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.4/.sourcecode_2.12-0.1.4.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.4/.sourcecode_2.12-0.1.4.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.4/sourcecode_2.12-0.1.4.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.4/sourcecode_2.12-0.1.4.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.7/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.7/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.7/.sourcecode_2.12-0.1.7.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.7/.sourcecode_2.12-0.1.7.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.7/.sourcecode_2.12-0.1.7.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.7/.sourcecode_2.12-0.1.7.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.7/sourcecode_2.12-0.1.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.7/sourcecode_2.12-0.1.7.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.7/sourcecode_2.12-0.1.7.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.7/sourcecode_2.12-0.1.7.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/martiansoftware/nailgun-all/0.9.1/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/martiansoftware/nailgun-all/0.9.1/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/martiansoftware/nailgun-all/0.9.1/.nailgun-all-0.9.1.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/martiansoftware/nailgun-all/0.9.1/.nailgun-all-0.9.1.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/martiansoftware/nailgun-all/0.9.1/nailgun-all-0.9.1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/martiansoftware/nailgun-all/0.9.1/nailgun-all-0.9.1.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/martiansoftware/nailgun-server/0.9.1/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/martiansoftware/nailgun-server/0.9.1/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/martiansoftware/nailgun-server/0.9.1/.nailgun-server-0.9.1.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/martiansoftware/nailgun-server/0.9.1/.nailgun-server-0.9.1.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/martiansoftware/nailgun-server/0.9.1/.nailgun-server-0.9.1.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/martiansoftware/nailgun-server/0.9.1/.nailgun-server-0.9.1.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/martiansoftware/nailgun-server/0.9.1/nailgun-server-0.9.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/martiansoftware/nailgun-server/0.9.1/nailgun-server-0.9.1.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/martiansoftware/nailgun-server/0.9.1/nailgun-server-0.9.1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/martiansoftware/nailgun-server/0.9.1/nailgun-server-0.9.1.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/.junit-interface-0.11-javadoc.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/.junit-interface-0.11-javadoc.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/.junit-interface-0.11-javadoc.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/.junit-interface-0.11-sources.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/.junit-interface-0.11-sources.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/.junit-interface-0.11-sources.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/.junit-interface-0.11.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/.junit-interface-0.11.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/.junit-interface-0.11.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/.junit-interface-0.11.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/.junit-interface-0.11.pom__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/.junit-interface-0.11.pom__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.9.0/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.9.0/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.9.0/.lenses_2.12-0.9.0.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.9.0/.lenses_2.12-0.9.0.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.9.0/.lenses_2.12-0.9.0.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.9.0/.lenses_2.12-0.9.0.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.9.0/lenses_2.12-0.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.9.0/lenses_2.12-0.9.0.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.9.0/lenses_2.12-0.9.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.9.0/lenses_2.12-0.9.0.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.9.0/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.9.0/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.9.0/.scalapb-runtime_2.12-0.9.0.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.9.0/.scalapb-runtime_2.12-0.9.0.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.9.0/.scalapb-runtime_2.12-0.9.0.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.9.0/.scalapb-runtime_2.12-0.9.0.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.9.0/scalapb-runtime_2.12-0.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.9.0/scalapb-runtime_2.12-0.9.0.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.9.0/scalapb-runtime_2.12-0.9.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.9.0/scalapb-runtime_2.12-0.9.0.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.2.1/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.2.1/.config-1.2.1.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.2.1/.config-1.2.1.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.2.1/.config-1.2.1.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.2.1/.config-1.2.1.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.2.1/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.6/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.6/.commons-codec-1.6.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.6/.commons-codec-1.6.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.6/.commons-codec-1.6.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.6/.commons-codec-1.6.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.6/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/.commons-logging-1.1.3.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/.commons-logging-1.1.3.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/.commons-logging-1.1.3.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/.commons-logging-1.1.3.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/.jline-2.14.6-javadoc.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/.jline-2.14.6-javadoc.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/.jline-2.14.6-javadoc.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/.jline-2.14.6-sources.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/.jline-2.14.6-sources.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/.jline-2.14.6-sources.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/.jline-2.14.6.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/.jline-2.14.6.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/.jline-2.14.6.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/.jline-2.14.6.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/.jline-2.14.6.pom__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/.jline-2.14.6.pom__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/junit/junit/4.11/.junit-4.11-javadoc.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/junit/junit/4.11/.junit-4.11-javadoc.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/junit/junit/4.11/.junit-4.11-javadoc.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/junit/junit/4.11/.junit-4.11-sources.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/junit/junit/4.11/.junit-4.11-sources.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/junit/junit/4.11/.junit-4.11-sources.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/junit/junit/4.11/.junit-4.11.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/junit/junit/4.11/.junit-4.11.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/junit/junit/4.11/.junit-4.11.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/junit/junit/4.11/.junit-4.11.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/junit/junit/4.11/.junit-4.11.pom__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/junit/junit/4.11/.junit-4.11.pom__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/junit/junit/4.11/junit-4.11-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/junit/junit/4.11/junit-4.11-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/junit/junit/4.11/junit-4.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/junit/junit/4.11/junit-4.11.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/apache/13/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/apache/13/.apache-13.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/apache/13/.apache-13.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/apache/13/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/apache/18/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/apache/18/.apache-18.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/apache/18/.apache-18.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/apache/18/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/apache/18/apache-18.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/apache/18/apache-18.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/apache/9/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/apache/9/.apache-9.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/apache/9/.apache-9.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/apache/9/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.7/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.7/.commons-lang3-3.7.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.7/.commons-lang3-3.7.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.7/.commons-lang3-3.7.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.7/.commons-lang3-3.7.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.7/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-parent/22/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-parent/22/.commons-parent-22.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-parent/22/.commons-parent-22.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-parent/22/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-parent/28/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-parent/28/.commons-parent-28.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-parent/28/.commons-parent-28.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-parent/28/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-parent/42/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-parent/42/.commons-parent-42.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-parent/42/.commons-parent-42.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-parent/42/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.2/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.2/.commons-text-1.2.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.2/.commons-text-1.2.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.2/.commons-text-1.2.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.2/.commons-text-1.2.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.2/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.2/commons-text-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.2/commons-text-1.2.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.2/commons-text-1.2.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.2/commons-text-1.2.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.6/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.6/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.6/.httpclient-4.3.6.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.6/.httpclient-4.3.6.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.6/.httpclient-4.3.6.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.6/.httpclient-4.3.6.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.3.6/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.3.6/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.3.6/.httpcomponents-client-4.3.6.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.3.6/.httpcomponents-client-4.3.6.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.3.6/httpcomponents-client-4.3.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.3.6/httpcomponents-client-4.3.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.3.3/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.3.3/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.3.3/.httpcomponents-core-4.3.3.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.3.3/.httpcomponents-core-4.3.3.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.3.3/httpcomponents-core-4.3.3.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.3.3/httpcomponents-core-4.3.3.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.3/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.3/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.3/.httpcore-4.3.3.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.3/.httpcore-4.3.3.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.3/.httpcore-4.3.3.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.3/.httpcore-4.3.3.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/project/7/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/project/7/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/project/7/.project-7.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/project/7/.project-7.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/project/7/project-7.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/project/7/project-7.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit-parent/4.5.4.201711221230-r/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit-parent/4.5.4.201711221230-r/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit-parent/4.5.4.201711221230-r/.org.eclipse.jgit-parent-4.5.4.201711221230-r.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit-parent/4.5.4.201711221230-r/.org.eclipse.jgit-parent-4.5.4.201711221230-r.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit-parent/4.5.4.201711221230-r/org.eclipse.jgit-parent-4.5.4.201711221230-r.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit-parent/4.5.4.201711221230-r/org.eclipse.jgit-parent-4.5.4.201711221230-r.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/4.5.4.201711221230-r/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/4.5.4.201711221230-r/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/4.5.4.201711221230-r/.org.eclipse.jgit-4.5.4.201711221230-r.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/4.5.4.201711221230-r/.org.eclipse.jgit-4.5.4.201711221230-r.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/4.5.4.201711221230-r/.org.eclipse.jgit-4.5.4.201711221230-r.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/4.5.4.201711221230-r/.org.eclipse.jgit-4.5.4.201711221230-r.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/4.5.4.201711221230-r/org.eclipse.jgit-4.5.4.201711221230-r.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/4.5.4.201711221230-r/org.eclipse.jgit-4.5.4.201711221230-r.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/4.5.4.201711221230-r/org.eclipse.jgit-4.5.4.201711221230-r.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/4.5.4.201711221230-r/org.eclipse.jgit-4.5.4.201711221230-r.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/.hamcrest-core-1.3-javadoc.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/.hamcrest-core-1.3-javadoc.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/.hamcrest-core-1.3-javadoc.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/.hamcrest-core-1.3-sources.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/.hamcrest-core-1.3-sources.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/.hamcrest-core-1.3-sources.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/.hamcrest-core-1.3.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/.hamcrest-core-1.3.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/.hamcrest-core-1.3.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/.hamcrest-core-1.3.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/.hamcrest-core-1.3.pom__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/.hamcrest-core-1.3.pom__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/.hamcrest-parent-1.3.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/.hamcrest-parent-1.3.pom__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/.hamcrest-parent-1.3.pom__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.1.2/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.1.2/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.1.2/.scala-collection-compat_2.12-2.1.2.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.1.2/.scala-collection-compat_2.12-2.1.2.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.1.2/.scala-collection-compat_2.12-2.1.2.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.1.2/.scala-collection-compat_2.12-2.1.2.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.1.2/scala-collection-compat_2.12-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.1.2/scala-collection-compat_2.12-2.1.2.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.1.2/scala-collection-compat_2.12-2.1.2.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.1.2/scala-collection-compat_2.12-2.1.2.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/.scala-xml_2.12-1.0.6.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/.scala-xml_2.12-1.0.6.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/.scala-xml_2.12-1.0.6.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/.scala-xml_2.12-1.0.6.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.10/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.10/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.10/.scala-compiler-2.12.10.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.10/.scala-compiler-2.12.10.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.10/.scala-compiler-2.12.10.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.10/.scala-compiler-2.12.10.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.10/scala-compiler-2.12.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.10/scala-compiler-2.12.10.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.10/scala-compiler-2.12.10.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.10/scala-compiler-2.12.10.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/.scala-compiler-2.13.0-javadoc.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/.scala-compiler-2.13.0-javadoc.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/.scala-compiler-2.13.0-javadoc.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/.scala-compiler-2.13.0-sources.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/.scala-compiler-2.13.0-sources.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/.scala-compiler-2.13.0-sources.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/.scala-compiler-2.13.0.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/.scala-compiler-2.13.0.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/.scala-compiler-2.13.0.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/.scala-compiler-2.13.0.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/.scala-compiler-2.13.0.pom__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/.scala-compiler-2.13.0.pom__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/scala-compiler-2.13.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/scala-compiler-2.13.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/scala-compiler-2.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/scala-compiler-2.13.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/.scala-library-2.12.10.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/.scala-library-2.12.10.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/.scala-library-2.12.10.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/.scala-library-2.12.10.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/.scala-library-2.13.0-javadoc.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/.scala-library-2.13.0-javadoc.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/.scala-library-2.13.0-javadoc.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/.scala-library-2.13.0-sources.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/.scala-library-2.13.0-sources.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/.scala-library-2.13.0-sources.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/.scala-library-2.13.0.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/.scala-library-2.13.0.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/.scala-library-2.13.0.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/.scala-library-2.13.0.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/.scala-library-2.13.0.pom__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/.scala-library-2.13.0.pom__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/.scala-reflect-2.12.10.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/.scala-reflect-2.12.10.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/.scala-reflect-2.12.10.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/.scala-reflect-2.12.10.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/scala-reflect-2.12.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/scala-reflect-2.12.10.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/scala-reflect-2.12.10.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/scala-reflect-2.12.10.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/.scala-reflect-2.13.0-javadoc.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/.scala-reflect-2.13.0-javadoc.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/.scala-reflect-2.13.0-javadoc.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/.scala-reflect-2.13.0-sources.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/.scala-reflect-2.13.0-sources.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/.scala-reflect-2.13.0-sources.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/.scala-reflect-2.13.0.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/.scala-reflect-2.13.0.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/.scala-reflect-2.13.0.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/.scala-reflect-2.13.0.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/.scala-reflect-2.13.0.pom__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/.scala-reflect-2.13.0.pom__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/scala-reflect-2.13.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/scala-reflect-2.13.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/scala-reflect-2.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/scala-reflect-2.13.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.12.9/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.12.9/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.12.9/.scalap-2.12.9.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.12.9/.scalap-2.12.9.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.12.9/.scalap-2.12.9.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.12.9/.scalap-2.12.9.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.12.9/scalap-2.12.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.12.9/scalap-2.12.9.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.12.9/scalap-2.12.9.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.12.9/scalap-2.12.9.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/.test-interface-1.0-javadoc.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/.test-interface-1.0-javadoc.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/.test-interface-1.0-javadoc.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/.test-interface-1.0-sources.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/.test-interface-1.0-sources.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/.test-interface-1.0-sources.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/.test-interface-1.0.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/.test-interface-1.0.jar__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/.test-interface-1.0.jar__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/.test-interface-1.0.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/.test-interface-1.0.pom__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/.test-interface-1.0.pom__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.12/4.2.3/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.12/4.2.3/.common_2.12-4.2.3.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.12/4.2.3/.common_2.12-4.2.3.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.12/4.2.3/.common_2.12-4.2.3.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.12/4.2.3/.common_2.12-4.2.3.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.12/4.2.3/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.12/4.2.3/common_2.12-4.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.12/4.2.3/common_2.12-4.2.3.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.12/4.2.3/common_2.12-4.2.3.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.12/4.2.3/common_2.12-4.2.3.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse-utils_2.12/1.0.1/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse-utils_2.12/1.0.1/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse-utils_2.12/1.0.1/.fastparse-utils_2.12-1.0.1.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse-utils_2.12/1.0.1/.fastparse-utils_2.12-1.0.1.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse-utils_2.12/1.0.1/.fastparse-utils_2.12-1.0.1.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse-utils_2.12/1.0.1/.fastparse-utils_2.12-1.0.1.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse-utils_2.12/1.0.1/fastparse-utils_2.12-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse-utils_2.12/1.0.1/fastparse-utils_2.12-1.0.1.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse-utils_2.12/1.0.1/fastparse-utils_2.12-1.0.1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse-utils_2.12/1.0.1/fastparse-utils_2.12-1.0.1.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse_2.12/1.0.1/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse_2.12/1.0.1/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse_2.12/1.0.1/.fastparse_2.12-1.0.1.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse_2.12/1.0.1/.fastparse_2.12-1.0.1.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse_2.12/1.0.1/.fastparse_2.12-1.0.1.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse_2.12/1.0.1/.fastparse_2.12-1.0.1.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse_2.12/1.0.1/fastparse_2.12-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse_2.12/1.0.1/fastparse_2.12-1.0.1.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse_2.12/1.0.1/fastparse_2.12-1.0.1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse_2.12/1.0.1/fastparse_2.12-1.0.1.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.2.3/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.2.3/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.2.3/.parsers_2.12-4.2.3.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.2.3/.parsers_2.12-4.2.3.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.2.3/.parsers_2.12-4.2.3.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.2.3/.parsers_2.12-4.2.3.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.2.3/parsers_2.12-4.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.2.3/parsers_2.12-4.2.3.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.2.3/parsers_2.12-4.2.3.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.2.3/parsers_2.12-4.2.3.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.2.3/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.2.3/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.2.3/.scalameta_2.12-4.2.3.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.2.3/.scalameta_2.12-4.2.3.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.2.3/.scalameta_2.12-4.2.3.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.2.3/.scalameta_2.12-4.2.3.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.2.3/scalameta_2.12-4.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.2.3/scalameta_2.12-4.2.3.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.2.3/scalameta_2.12-4.2.3.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.2.3/scalameta_2.12-4.2.3.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.12/4.2.3/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.12/4.2.3/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.12/4.2.3/.trees_2.12-4.2.3.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.12/4.2.3/.trees_2.12-4.2.3.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.12/4.2.3/.trees_2.12-4.2.3.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.12/4.2.3/.trees_2.12-4.2.3.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.12/4.2.3/trees_2.12-4.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.12/4.2.3/trees_2.12-4.2.3.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.12/4.2.3/trees_2.12-4.2.3.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.12/4.2.3/trees_2.12-4.2.3.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/.slf4j-api-1.7.25.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/.slf4j-api-1.7.25.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/.slf4j-api-1.7.25.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/.slf4j-api-1.7.25.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.25/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.25/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.25/.slf4j-parent-1.7.25.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.25/.slf4j-parent-1.7.25.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/sonatype/oss/oss-parent/5/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/sonatype/oss/oss-parent/5/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/sonatype/oss/oss-parent/5/.oss-parent-5.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/sonatype/oss/oss-parent/5/.oss-parent-5.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/sonatype/oss/oss-parent/5/oss-parent-5.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/sonatype/oss/oss-parent/5/oss-parent-5.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/sonatype/oss/oss-parent/6/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/sonatype/oss/oss-parent/6/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/sonatype/oss/oss-parent/6/.oss-parent-6.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/sonatype/oss/oss-parent/6/.oss-parent-6.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/sonatype/oss/oss-parent/6/oss-parent-6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/sonatype/oss/oss-parent/6/oss-parent-6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/.oss-parent-7.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/.oss-parent-7.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/.oss-parent-9.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/.oss-parent-9.pom__md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/.oss-parent-9.pom__sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_2.12/0.2.4/..directory.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_2.12/0.2.4/.directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_2.12/0.2.4/.paiges-core_2.12-0.2.4.jar.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_2.12/0.2.4/.paiges-core_2.12-0.2.4.jar.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_2.12/0.2.4/.paiges-core_2.12-0.2.4.pom.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_2.12/0.2.4/.paiges-core_2.12-0.2.4.pom.sha1.checked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_2.12/0.2.4/paiges-core_2.12-0.2.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_2.12/0.2.4/paiges-core_2.12-0.2.4.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_2.12/0.2.4/paiges-core_2.12-0.2.4.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_2.12/0.2.4/paiges-core_2.12-0.2.4.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/MOOCSettings.scala" beforeDir="false" afterPath="$PROJECT_DIR$/project/MOOCSettings.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/StudentTasks.scala" beforeDir="false" afterPath="$PROJECT_DIR$/project/StudentTasks.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/buildSettings.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/project/buildSettings.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/plugins.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/project/plugins.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$399dda495b59207d8969$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$399dda495b59207d8969.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$399dda495b59207d8969.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$56a64a29a97cd0a1c516$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$56a64a29a97cd0a1c516.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$56a64a29a97cd0a1c516.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$6739e0e2c5ad2e454580$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$6739e0e2c5ad2e454580.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$6739e0e2c5ad2e454580.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$ca17836c8ac08e5a3945$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$ca17836c8ac08e5a3945.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$ca17836c8ac08e5a3945.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$dd324a2b4700765dc676$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$dd324a2b4700765dc676.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$dd324a2b4700765dc676.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$df314f82aa72169df238$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$df314f82aa72169df238.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$df314f82aa72169df238.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$218366d68cbe7a63d25a$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$218366d68cbe7a63d25a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$218366d68cbe7a63d25a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$30f4712dc33e97aef603$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$30f4712dc33e97aef603.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$30f4712dc33e97aef603.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3430a6096688ea5905e9$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3430a6096688ea5905e9.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3430a6096688ea5905e9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$40bf7f21a6f1d810f114$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$40bf7f21a6f1d810f114.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$40bf7f21a6f1d810f114.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5880c2d506a7e8836330$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5880c2d506a7e8836330.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5880c2d506a7e8836330.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d9c4dc2cb8f796bd4d39$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d9c4dc2cb8f796bd4d39.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d9c4dc2cb8f796bd4d39.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f0a9ff84c3af8c578426$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f0a9ff84c3af8c578426.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f0a9ff84c3af8c578426.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fdd66f39e7b83bc93ec9$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fdd66f39e7b83bc93ec9.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fdd66f39e7b83bc93ec9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/patmat-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/patmat-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/patmat-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/patmat-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patmat-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patmat-build-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patmat-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patmat-build-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patmat-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patmat-build-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patmat-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patmat-build-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patmat-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patmat-build-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patmat-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patmat-build-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patmat-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patmat-build-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patmat-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patmat-build-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patmat-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patmat-build-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patmat-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patmat-build-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patmat-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patmat-build-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/patmat/HuffmanInterface.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/patmat/HuffmanInterface.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/patmat/HuffmanSuite.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/patmat/HuffmanSuite.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/patmat/Huffman$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/patmat/Huffman$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/patmat/Huffman.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/patmat/Huffman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/patmat/HuffmanSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/patmat/HuffmanSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/test/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-reports/TEST-patmat.HuffmanSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/TEST-patmat.HuffmanSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-reports/patmat.HuffmanSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/patmat.HuffmanSuite.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +815,14 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1YuChUEjG079vAlDV0hlmeEJvl3" />
+  <component name="ProjectId" id="1YwYitNPZhEPCmNppSoSB9zYN7M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,6 +830,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SbtLocalSettings">
     <option name="availableProjects">
@@ -40,7 +846,7 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="patmat [file:/C:/Users/William/Documents/coursera/progfun1/Week4/patmat/]" />
+                <option name="name" value="patmat [file:/Users/wmachi/Documents/dev/scala/Coursera/progFun1/Week4/patmat/]" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
@@ -64,11 +870,7 @@
     </option>
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/../../New folder/funsets" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../Week1/PracticeAssignment/example" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../Week1/RecursionAssignment/recfun" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../objsets" value="PREVIEW" />
-        <entry key="$USER_HOME$/IdeaProjects/HelloWorld" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$" value="PREVIEW" />
       </map>
     </option>
   </component>
@@ -77,18 +879,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b1015091-ffb8-4a48-894a-ae82a63edeb6" name="Default Changelist" comment="" />
-      <created>1583783215326</created>
+      <changelist id="f4dff78c-8b35-43dc-ba15-2702fb9632ed" name="Default Changelist" comment="" />
+      <created>1583855253108</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1583783215326</updated>
+      <updated>1583855253108</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="94" y="-895" key="com.intellij.ide.util.TipDialog" timestamp="1583783228008">
-      <screen x="-305" y="-1440" width="2560" height="1440" />
-    </state>
-    <state x="94" y="-895" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-305.-1440.2560.1440@-305.-1440.2560.1440" timestamp="1583783228008" />
   </component>
 </project>

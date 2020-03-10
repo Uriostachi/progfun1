@@ -42,6 +42,19 @@ class HuffmanSuite {
       assertEquals("ab".toList, decode(t1, encode(t1)("ab".toList)))
     }
 
+  @Test def `codeBits mus return the bitList corresponding to the chr`: Unit = {
+    val bitTable = List(('a', List(1, 0, 1)), ('e', List(0, 0, 0, 0)), ('g', List(1, 1)))
+    assertEquals(codeBits(bitTable)('a'), List(1, 0, 1))
+    assertEquals(codeBits(bitTable)('e'), List(0, 0, 0, 0))
+    assertEquals(codeBits(bitTable)('g'), List(1, 1))
+  }
+
+  @Test def `Convert returns the CodeTable given a tree`: Unit = {
+    new TestTrees {
+      assertEquals(convert(t1), List(('a', List(0)), ('b', List(1))))
+    }
+  }
+
 
   @Rule def individualTestTimeout = new org.junit.rules.Timeout(10 * 1000)
 }
