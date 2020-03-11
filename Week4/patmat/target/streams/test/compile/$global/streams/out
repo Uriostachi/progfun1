@@ -1,19 +1,6 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/wmachi/Documents/dev/scala/Coursera/progFun1/Week4/patmat/src/test/scala/patmat/HuffmanSuite.scala:47:27: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : List[Product with java.io.Serializable][0m
-[0m[[0m[31merror[0m] [0m[0m required: patmat.Huffman.CodeTable[0m
-[0m[[0m[31merror[0m] [0m[0m    (which expands to)  List[(Char, List[Int])][0m
-[0m[[0m[31merror[0m] [0m[0m    assertEquals(codeBits(bitTable)('a'), List(1, 0, 1))[0m
-[0m[[0m[31merror[0m] [0m[0m                          ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/wmachi/Documents/dev/scala/Coursera/progFun1/Week4/patmat/src/test/scala/patmat/HuffmanSuite.scala:48:27: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : List[Product with java.io.Serializable][0m
-[0m[[0m[31merror[0m] [0m[0m required: patmat.Huffman.CodeTable[0m
-[0m[[0m[31merror[0m] [0m[0m    (which expands to)  List[(Char, List[Int])][0m
-[0m[[0m[31merror[0m] [0m[0m    assertEquals(codeBits(bitTable)('e'), List(0, 0, 0, 0))[0m
-[0m[[0m[31merror[0m] [0m[0m                          ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/wmachi/Documents/dev/scala/Coursera/progFun1/Week4/patmat/src/test/scala/patmat/HuffmanSuite.scala:49:27: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : List[Product with java.io.Serializable][0m
-[0m[[0m[31merror[0m] [0m[0m required: patmat.Huffman.CodeTable[0m
-[0m[[0m[31merror[0m] [0m[0m    (which expands to)  List[(Char, List[Int])][0m
-[0m[[0m[31merror[0m] [0m[0m    assertEquals(codeBits(bitTable)('g'), List(1, 1))[0m
-[0m[[0m[31merror[0m] [0m[0m                          ^[0m
-[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/wmachi/Documents/dev/scala/Coursera/progFun1/Week4/patmat/src/test/scala/patmat/HuffmanSuite.scala:62:12: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : List[Char][0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m    printf(toEncode)[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

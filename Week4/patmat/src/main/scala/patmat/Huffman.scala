@@ -74,10 +74,12 @@ trait Huffman extends HuffmanInterface {
     def timesChar(char: Char): (Char, Int) = (char, chars.count(x => char == x))
 
     def timesAcc(restChars: List[Char], acc: List[(Char, Int)]): List[(Char, Int)] =
-      if (restChars.isEmpty) acc else {
+      if (restChars.isEmpty) acc
+      else {
         val found = timesChar(restChars.head)
         val rest = timesAcc(restChars.tail, acc)
-        if (rest.contains(found)) rest else found :: rest
+        if (rest.contains(found)) rest
+        else found :: rest
       }
     timesAcc(chars, List())
   }
@@ -210,7 +212,8 @@ trait Huffman extends HuffmanInterface {
    */
   def encode(tree: CodeTree)(text: List[Char]): List[Bit]  = {
     def encodeAcc(givenTree: CodeTree, givenText: List[Char], acc: List[Bit]): List[Bit] = {
-      if (givenText.isEmpty) acc.reverse else
+      if (givenText.isEmpty) acc.reverse
+      else
         encodeAcc(givenTree, givenText.tail, encodeMapBits(givenTree, givenText.head).reverse ::: acc)
     }
 
@@ -253,14 +256,23 @@ trait Huffman extends HuffmanInterface {
    * a valid code tree that can be represented as a code table. Using the code tables of the
    * sub-trees, think of how to build the code table for the entire tree.
    */
-  def convert(tree: CodeTree): CodeTable = ???
+  def convert(tree: CodeTree): CodeTable = {
+    def convertAcc(givenTree: CodeTree, acc: List[Bit]): CodeTable =  givenTree match {
+      case Leaf(char, _) => List((char, acc))
+      case Fork(left, right, _, _) => {
+        mergeCodeTables(convertAcc(left, acc ::: List(0) ), convertAcc(right, acc ::: List(1)))
+      }
+    }
+
+    convertAcc(tree, Nil)
+  }
 
   /**
    * This function takes two code tables and merges them into one. Depending on how you
    * use it in the `convert` method above, this merge method might also do some transformations
    * on the two parameter code tables.
    */
-  def mergeCodeTables(a: CodeTable, b: CodeTable): CodeTable = ???
+  def mergeCodeTables(a: CodeTable, b: CodeTable): CodeTable = a ::: b
 
   /**
    * This function encodes `text` according to the code tree `tree`.
@@ -268,7 +280,24 @@ trait Huffman extends HuffmanInterface {
    * To speed up the encoding process, it first converts the code tree to a code table
    * and then uses it to perform the actual encoding.
    */
-  def quickEncode(tree: CodeTree)(text: List[Char]): List[Bit] = ???
+  def quickEncode(tree: CodeTree)(text: List[Char]): List[Bit] =  {
+
+    val table = convert(tree)
+
+    def mapCharToBit(givenTable: CodeTable, char: Char): List[Bit] = {
+      if(givenTable.head._1 == char) givenTable.head._2
+      else mapCharToBit(givenTable.tail, char)
+    }
+
+   def quickEncodeAcc(givenTable: CodeTable, givenText: List[Char], acc: List[Bit]): List[Bit] = {
+     if(givenText.isEmpty) acc.reverse
+     else quickEncodeAcc(givenTable, givenText.tail, (mapCharToBit(givenTable, givenText.head)).reverse ::: acc)
+   }
+
+
+   quickEncodeAcc(table, text, Nil)
+  }
+
 }
 
 object Huffman extends Huffman

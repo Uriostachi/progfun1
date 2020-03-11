@@ -1,4 +1,4 @@
-[0m[[0m[33mwarn[0m] [0m[0m/Users/wmachi/Documents/dev/scala/Coursera/progFun1/Week4/patmat/src/main/scala/patmat/Huffman.scala:167:63: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/wmachi/Documents/dev/scala/Coursera/progFun1/Week4/patmat/src/main/scala/patmat/Huffman.scala:169:63: match may not be exhaustive.[0m
 [0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: (Fork(_, _, _, _), _), (_, 0), (_, 1), (_, ??), (_, _)[0m
 [0m[[0m[33mwarn[0m] [0m[0m    def findBranch(givenTree: CodeTree, bit: Bit): CodeTree = (givenTree, bit) match {[0m
 [0m[[0m[33mwarn[0m] [0m[0m                                                              ^[0m
