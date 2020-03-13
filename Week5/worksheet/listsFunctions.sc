@@ -44,16 +44,11 @@ removeAt(l1, 2)
 
 def flatten(xs: List[Any]): List[Any] = xs match {
   case Nil => Nil
-  case y :: ys => {
-    y match {
-      case Nil => Nil
-      case z => z :: flatten(ys)
-      case a :: as => flatten(a :: as) :: flatten((ys))
-    }
-  }
+  case (y: List[_]) :: ys => flatten(y) ::: flatten(ys)
+  case z :: zs => z :: flatten(zs)
 }
 
-flatten(List(List(1, 1), 2, List(3, List(5, 8))))
+flatten(List(List(1, List(11, 25)), 2, List(3, List(5, 8))))
 
 // Merge Sort
 
@@ -152,10 +147,14 @@ def encode[T](xs: List[T]): List[(T, Int)] = {
 
 encode(duplicates)
 
-/*def mapFun[T, U](xs: List[T], f: T => U): List[U] = {
-  (((xs foldRight List[U]())(f  ))
-}*/
+def mapFun[T, U](xs: List[T], f: T => U): List[U] =
+  (xs foldRight List[U]())((x, list) => f(x) :: list)
 
-/*
+def twice(x: Int): Int = x * 2
+
+mapFun(l1, twice)
+
 def lengthFun[T](xs: List[T]): Int =
-  (xs foldRight 0)((x, y) => )*/
+  (xs foldRight 0)((_, sum) => sum + 1)
+
+lengthFun(l1)
